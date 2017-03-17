@@ -1,3 +1,15 @@
+.btn {
+    color: #FFFFFF;
+    background-color: #009688;
+    border: 1px solid #009688;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background-color: #00796B;
+    border: 1px solid #00796B;
+}
+
 .navbar {
     margin-bottom: 0;
     background-color: #00796B;
@@ -130,7 +142,30 @@ p {
     margin: auto;
 }
 
-#personal img {
+.modal {
+    margin: 75px auto;
+    height: 75%;
+}
+
+.modal .modal-dialog {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.modal .modal-content {
+    width: 100%;
+}
+
+.modal .modal-body {
+    height: 100%;
+    overflow: scroll;
+}
+
+#contacto #personal {
+    margin-bottom: 50px;
+}
+
+#contacto #personal img {
     max-width: 150px;
     max-height: 150px;
     border-radius: 100%;
