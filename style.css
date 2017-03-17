@@ -161,15 +161,19 @@ p {
     overflow: scroll;
 }
 
-#contacto #personal {
-    margin-bottom: 50px;
+#contacto #team {
+    margin-bottom: 10px;
 }
 
-#contacto #personal img {
+#contacto #team img {
     max-width: 150px;
     max-height: 150px;
     border-radius: 100%;
     margin: 25px auto 20px auto;
+}
+
+#contacto #team div {
+    margin-bottom: 40px;
 }
 
 #contacto iframe {
