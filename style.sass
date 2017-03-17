@@ -1,0 +1,146 @@
+$primary-color-dark:   #00796B
+$primary-color:        #009688
+$primary-color-light:  #B2DFDB
+$primary-color-text:   #FFFFFF
+$accent-color:         #607D8B
+$primary-text-color:   #212121
+$secondary-text-color: #757575
+$divider-color:        #BDBDBD
+
+.navbar
+  margin-bottom: 0
+  background-color: $primary-color-dark
+  z-index: 9999
+  border: 0
+  font-size: 12px !important
+  line-height: 1.42857143 !important
+  letter-spacing: 4px
+  border-radius: 0
+
+#logo-nav
+  color: $primary-color-text
+
+#logo
+  width: 300px
+  margin: 0 auto
+
+.navbar
+  li a
+    color: $primary-color-text !important
+  color: $primary-color-text !important
+
+.navbar-nav li
+  a:hover, &.active a
+    color: $primary-color !important
+    background-color: $primary-color-text !important
+
+.white-line
+  margin: 0  auto
+  height: 1px
+  width: 80%
+  border-bottom: 1px solid $primary-color-text
+
+.navbar
+  .dropdown
+    ul
+      padding: 0
+      border: 0 2px 2px 2px solid $primary-color-light
+    li
+      height: 50px
+      a
+        line-height: 50px
+        color: $primary-color-text !important
+        background-color: $primary-color !important
+      a:hover, &.active a
+        color: $primary-color !important
+        background-color: $primary-color-text !important
+
+.navbar-default .navbar-toggle
+  border-color: transparent
+  color: $primary-color-text !important
+
+.navbar-toggle .icon-bar
+  background-color: $primary-color-text !important
+
+.jumbotron
+  background-color: $primary-color
+  color: #ffffff
+  padding: 90px 25px 50px 25px
+  margin: 0
+  #logoMain
+    width: 45%
+    margin: 0 auto
+
+.bg-grey
+    background-color: #f6f6f6
+
+.text-justify
+  text-align: justify
+
+
+.container-fluid
+  padding: 60px 50px
+
+h2
+  font-family: 'Roboto', sans-serif
+
+p
+    font-family: 'Raleway', sans-serif
+    font-size: 16px
+
+#clientes
+  p
+    margin-bottom: 20px
+
+.carousel
+  height: 125px
+
+.carousel-inner>.item>img
+  margin-top: auto
+
+.item
+  height: 125px
+
+.images-clientes img
+  max-height: 100%
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  margin: auto
+
+#contacto
+  i
+    font-size: 120px
+
+  iframe
+    width: 100%
+    height: 500px
+
+.overflow
+  height: 175px
+  overflow: scroll
+
+footer .glyphicon
+    font-size: 20px
+    margin-bottom: 20px
+    color: $primary-color
+
+
+
+@media (min-width: 768px)
+  .vertical-align
+      display: flex
+      align-items: center
+
+  .jumbotron
+    padding-top: 150px
+    #logoMain
+      width: 30%
+
+@media (min-width: 992px)
+  .jumbotron
+    padding-top: 100px
+    #logoMain
+      width: 30%
