@@ -130,8 +130,11 @@ p {
     margin: auto;
 }
 
-#contacto i {
-    font-size: 120px;
+#personal img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 100%;
+    margin: 25px auto 20px auto;
 }
 
 #contacto iframe {
