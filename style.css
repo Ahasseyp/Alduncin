@@ -104,6 +104,10 @@ p {
     margin-bottom: 20px;
 }
 
+#clientes > .row > div {
+    height: 300px;
+}
+
 .carousel {
     height: 125px;
 }
