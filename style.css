@@ -161,18 +161,18 @@ p {
     overflow: scroll;
 }
 
-#contacto #team {
+#equipo {
     margin-bottom: 10px;
 }
 
-#contacto #team img {
+#equipo img {
     max-width: 150px;
     max-height: 150px;
     border-radius: 100%;
     margin: 25px auto 20px auto;
 }
 
-#contacto #team div {
+#equipo div {
     margin-bottom: 40px;
 }
 
